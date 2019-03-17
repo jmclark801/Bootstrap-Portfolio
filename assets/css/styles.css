@@ -26,17 +26,16 @@ a:hover {
   padding-bottom: 50px;
 }
 
-.row.white-background {
+.white-background {
   background: white;
-  margin: 0px 15% 0px;;
 }
 
 p {
   line-height: 2;
   font-size: 20px;
   color: #777;
-  padding: 0 15px 25px 15px;
-  margin: 5px;
+  /* padding: 0 15px 25px 15px; */
+  /* margin: 5px; */
 }
 
 .container.honeycomb-background {
@@ -119,6 +118,7 @@ footer {
   width: 220px;
   padding: 25px;
 }
+
 
 .submit-button {
   color: white;
