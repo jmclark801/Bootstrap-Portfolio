@@ -9,18 +9,22 @@ a:hover {
   font-weight: 500;
 }
 
-.coming-soon-label {
+.card-body {
   background-color: #3FAAA5;
-  color: white;
-  font-size: 18px;
-  width: 220px;
-  height: 35px;
-  margin: 25px;
-  padding-top: 12px;
-  position: absolute;
-  text-align: center;
-  top: 105px;
 }
+
+.card-title {
+  color: white;
+}
+.center-image {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center-text {
+  text-align: center;
+}
+
 
 .contact-list-item:last-child{
   padding-bottom: 50px;
@@ -77,9 +81,15 @@ form input, form textarea {
 footer {
   border-top: 5px solid #3FAAA5;
 }
+
 .footer-image {
   height: 50px;
   width: 50px;
+}
+
+.image-responsive-custom {
+  max-width: 100%;
+  height: auto; 
 }
 
 .nav-item, .contact-list-item {
@@ -116,9 +126,8 @@ footer {
 .portfolio-image {
   height: 165px;
   width: 220px;
-  padding: 25px;
+  margin: 10px;
 }
-
 
 .submit-button {
   color: white;
