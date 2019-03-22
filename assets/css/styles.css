@@ -9,8 +9,29 @@ a:hover {
   font-weight: 500;
 }
 
+.btn-primary {
+  background-color: #3FAAA5;
+  border-color: #3FAAA5;
+  margin-bottom: 50px;
+}
+
+.btn-primary:hover {
+  background-color: #389994;
+  border-color: #389994;
+  font-weight: 500;
+}
+
+.card {
+  border: none;
+}
+
 .card-body {
   background-color: #3FAAA5;
+  margin: 10px;
+}
+
+.card-img-top {
+  padding: 10px;
 }
 
 .card-title {
@@ -38,8 +59,6 @@ p {
   line-height: 2;
   font-size: 20px;
   color: #777;
-  /* padding: 0 15px 25px 15px; */
-  /* margin: 5px; */
 }
 
 .container.honeycomb-background {
@@ -57,10 +76,10 @@ p {
   width: 250px;
 }
 
-form {
+.form-control {
   color: #777;
   font-size: 20px;
-  padding-left: 25px;
+  margin-right: 50px;
 }
 
 form input, form textarea {
@@ -71,11 +90,6 @@ form input, form textarea {
   padding: 10px 10px; 
   resize: none;
   vertical-align: top;
-}
-
-.form-input-large {
-  width: 90%;
-  height: 150px; 
 }
 
 footer {
@@ -127,19 +141,4 @@ footer {
   height: 165px;
   width: 220px;
   margin: 10px;
-}
-
-.submit-button {
-  color: white;
-  background-color: #3FAAA5;
-  border-radius: 4px;
-  font-size: 20px;
-  height: 50px;
-  margin-bottom: 50px;
-  margin-top: 25px;
-  width: 100px;
-}
-
-.submit-button:hover {
-  background-color: #26918C;
 }
